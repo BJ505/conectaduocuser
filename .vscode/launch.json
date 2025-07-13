@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GestionVelasApplication",
+            "request": "launch",
+            "mainClass": "com.hemera.GestionVelasApplication",
+            "projectName": "hemera"
+        },
+        {
+            "type": "java",
+            "name": "GestionVelasApplication",
+            "request": "launch",
+            "mainClass": "com.hemera.GestionVelasApplication",
+            "projectName": "gestion-libros"
+        },
+        {
+            "type": "java",
+            "name": "GestionLibrosApplication",
+            "request": "launch",
+            "mainClass": "com.biblioteca.GestionLibrosApplication",
+            "projectName": "gestion-libros"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GestionLibrosApplication<gestion-libros>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.biblioteca.gestion_libros.GestionLibrosApplication",
+            "projectName": "gestion-libros",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

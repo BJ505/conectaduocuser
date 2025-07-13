@@ -1,0 +1,4 @@
+com\conectaduoc\service\AppUserServiceTest.class
+com\conectaduoc\controller\AppUserControllerTest.class
+com\conectaduoc\gestion_comentarios\ConectaDuocApplicationTests.class
+com\conectaduoc\model\AppUserTest.class
