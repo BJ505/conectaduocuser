@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  conectaduocuser:
+    build:
+      context: ./conectaduocuser
+    ports:
+      - "8081:9090"
+  
+  conectaduocpost:
+    build:
+      context: ./conectaduocpost
+    ports:
+      - "8082:9090"
+
+  conectaduocnotification:
+    build:
+      context: ./conectaduocnotification
+    ports:
+      - "8083:9090"
